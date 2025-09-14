@@ -24,17 +24,14 @@
 
 ### 後端工程師 - 詮隼科技股份有限公司 (2022/09 - 現職)
 
-- 使用Golang + Postgresql設計並開發多Edge管理的Controller
-- 將Linux網路設定功能從Python重構成Golang，提高併發能力與系統響應速度
-- 使用Golang + Libp2p開發支援Linux, Windows, Mac的VPN程式
-- 使用Golang + RAUC開發KVM架構的A/B Boot
-- 為Edge Controller設計並開發任務排程批次處理(Cron + Go 實現)
-- 為大數據資料表設計Keyset Pagination + Sharding，優化億級別的資料表查詢速度到1ms
-- 設計並實作 CI/CD 流程，完成自動化 Container Image 建置與版本管理 (Golang + Register API + Harbor API 實現)
-- 
-
-- 設計與優化網路隧道（Tunnel）技術，強化終端與 Controller 之間的安全、私密資料傳輸，並提升連線穩定度與速度。
-- 熟悉 Linux Bridge 技術，優化網路架構與流量管理。
+- 使用Golang + Postgresql設計並開發Edge Controller  
+- 將5G CPE網路功能從Python重構成Golang，提高併發能力與系統響應速度  
+- 開發跨平台 VPN 解決方案，協助企業用戶安全連線，並優化連線穩定度(Golang + Libp2p 實現)  
+- 使用Golang + RAUC開發KVM架構的A/B Boot，實現可靠性OTA升級  
+- 為Edge Controller設計並開發任務排程批次處理(Cron + Go 實現)  
+- 設計高效資料查詢架構（Keyset Pagination + Sharding），將億級資料查詢速度提升至毫秒級  
+- 設計並實作 CI/CD 流程，完成自動化 Container Image 建置與版本管理 (Golang + Register API + Harbor API 實現)  
+- 開發 Edge Controller 測試工具，使用 Golang + Container + Linux Namespace，模擬大規模 Edge 裝置負載與 VPN 網路環境，並整合 Apache Bench 進行壓力測試，確保產品於實際環境下穩定運作  
 
 ---
 
