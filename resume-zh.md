@@ -26,12 +26,11 @@
 
 - 使用Golang + Postgresql設計並開發Edge Controller  
 - 將5G CPE網路功能從Python重構成Golang，提高併發能力與系統響應速度  
--   
-- 參與 VPN 開發專案，開發具 NAT Traversal (UDP Hole Punching, DCUtR) 與 hybrid P2P/relay fallback 機制的 VPN 系統，並透過 traffic shaping 與 packet batching 提升傳輸效能
+- 使用 Golang 實現自動化發現與接管， 解決設備在不同網段及 NAT 環境下難以發現與管理的問題  
+- 參與 VPN 開發專案，解決 NAT 與跨網路連線不穩定的問題，參與開發具 NAT Traversal 與 hybrid P2P/Relay fallback 的 VPN 系統，並透過 traffic shaping 與 packet batching 提升傳輸效能  
 - 使用Golang + RAUC開發LVM架構的A/B Boot，實現可靠性OTA升級  
 - 為Edge Controller設計並開發任務排程批次處理(Cron + Go 實現)  
 - 設計高效資料查詢架構（Keyset Pagination + Sharding），將億級資料查詢速度提升至毫秒級  
-- 設計並實作 CI/CD 流程，完成自動化 Container Image 建置與版本管理 (Golang + Register API + Harbor API 實現)  
 - 開發 Edge Controller 測試工具，使用 Golang + Container + Linux Namespace，模擬大規模 Edge 裝置負載與 VPN 網路環境，並整合 Apache Bench 進行壓力測試，確保產品於實際環境下穩定運作  
 
 ---
