@@ -24,12 +24,12 @@
 
 ### 後端工程師 - 詮隼科技股份有限公司 (2022/09 - 現職)
 
-- 使用Golang + Postgresql設計並開發Edge Controller  
-- 將5G CPE網路功能從Python重構成Golang，提高併發能力與系統響應速度  
+- 使用 Golang + Postgresql 設計並開發 Edge Controller  
+- 將 5G CPE 網路功能從 Python 重構成 Golang，提高併發能力與系統響應速度  
 - 使用 Golang 實現自動化發現與接管， 解決設備在不同網段及 NAT 環境下難以發現與管理的問題  
 - 參與 VPN 開發專案，解決 NAT 與跨網路連線不穩定的問題，參與開發具 NAT Traversal 與 hybrid P2P/Relay fallback 的 VPN 系統，並透過 traffic shaping 與 packet batching 提升傳輸效能  
-- 使用Golang + RAUC開發LVM架構的A/B Boot，實現可靠性OTA升級  
-- 為Edge Controller設計並開發任務排程批次處理(Cron + Go 實現)  
+- 使用 Golang + RAUC 開發LVM架構的 A/B Boot，實現可靠性 OTA 升級  
+- 為 Edge Controller 設計並開發任務排程批次處理(Cron + Go 實現)  
 - 設計高效資料查詢架構（Keyset Pagination + Sharding），將億級資料查詢速度提升至毫秒級  
 - 開發 Edge Controller 測試工具，使用 Golang + Container + Linux Namespace，模擬大規模 Edge 裝置負載與 VPN 網路環境，並整合 Apache Bench 進行壓力測試，確保產品於實際環境下穩定運作  
 
@@ -39,15 +39,14 @@
 
 ### 軟體工程師 - 諾亞克科技股份有限公司 (2020/11 ~ 2022/02)
 
-- 使用.Net + SQL Server + Bootstrap設計並開發線上派車系統  
-- 開發長照系統定時批次任務( .Net + Schedule)  
+- 使用 .Net + SQL Server + Bootstrap 設計並開發線上派車及後台系統  
+- 使用 Android 設計並開發線上派車預約系統  
+- 開發公布門系統定時批次任務(.Net + Schedule)  
 - 實作 JWT 驗證與角色權限控制 (RBAC) 系統  
 - 設計並實作全平台即時通知系統，整合 Firebase Notification 並搭配後端隊列管理、重試機制，確保高併發下消息不丟失  
-- 
-- 參與需求分析與系統架構設計，與 PM 及前端團隊協作，規劃高效 API 流程。  
-- 負責 API 開發、單元測試、自動化測試、壓力測試及安全性修正，確保產品品質。  
-- 協助新進同仁熟悉系統，進行技術指導與 Code Review，提升團隊整體效能。  
-- 持續維護與優化專案，快速回應並實現新需求。  
+- 設計單元測試、自動化測試、壓力測試及安全性修正，確保產品品質  
+
+技術: .Net, SQL Server, Bootstrap, Android, Batch  
 
 ---
 
