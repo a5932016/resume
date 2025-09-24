@@ -8,7 +8,10 @@
 ---
 
 ## 專業簡介
+
 經驗豐富的資深 Golang 開發工程師，專註於高併發分散式系統、微服務架構與雲原生開發。在金融科技、電商平台、基礎建設服務等多個產業擁有超過 10 年後端研發經驗。擅長建構穩定、可擴展的後端系統，精通 Golang生態與 DevOps 自動化流程。具備紮實的系統設計能力，熟悉容器化部署（ Docker/Kubernetes ） 、 事件驅動架構（EDA） 、CI/CD 管道建設、服務可觀測性等工程實踐。曾成功推動舊系統向現代微服務架構遷移，並在多個專案中顯著提升系統效能與可靠性。
+
+具備 6 年經驗的後端工程師，專注於高效能系統設計、資料處理與網路通訊。熟悉 Golang與C#，能在高併發與跨網路環境中設計穩定、可擴展的解決方案。擅長從系統架構、資料庫優化到效能調校的完整開發流程，致力於打造可靠且高效的後端服務。
 
 ---
 
@@ -26,7 +29,7 @@
 
 - 使用 Golang + Postgresql 設計並開發 Edge Controller  
 - 將 5G CPE 網路功能從 Python 重構成 Golang，提高併發能力與系統響應速度  
-- 使用 Golang 實現自動化發現與接管， 解決設備在不同網段及 NAT 環境下難以發現與管理的問題  
+- 使用 Golang 實現自動化發現與接管，解決設備在不同網段及 NAT 環境下難以發現與管理的問題  
 - 參與 VPN 開發專案，解決 NAT 與跨網路連線不穩定的問題，參與開發具 NAT Traversal 與 hybrid P2P/Relay fallback 的 VPN 系統，並透過 traffic shaping 與 packet batching 提升傳輸效能  
 - 使用 Golang + RAUC 開發LVM架構的 A/B Boot，實現可靠性 OTA 升級  
 - 為 Edge Controller 設計並開發任務排程批次處理(Cron + Go 實現)  
@@ -68,12 +71,7 @@
 ---
 
 ## 項目背景
-- **Fitness Tracking App**  
-  使用 React + Node.js 開發，支援使用者記錄運動與營養，  
-  整合 Chart.js 提供數據可視化。  
-
-- **P2P VPN Service (Prototype)**  
-  基於 Android VpnService + libp2p，實現點對點連線與資料加密傳輸。  
+- ****  
 
 ---
 
