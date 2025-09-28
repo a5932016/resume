@@ -1,62 +1,75 @@
 # 曾子言 (Zih Yan Tseng)
 
-📧 Email: your.email@example.com  
-📱 Phone: +886-9xx-xxx-xxx  
-🌐 GitHub: https://github.com/yourname  
-💼 LinkedIn: https://linkedin.com/in/yourname  
+📧 Email: a5932016@gmail.com  
+📱 Phone: +886-910-925-272  
+🌐 GitHub: https://github.com/a5932016  
+💼 LinkedIn: https://linkedin.com/in/a5932016  
 
 ---
 
-## 🎯 About Me
-一段簡短的自我介紹（2–3 句），例如你的專業背景、核心技能或職涯目標。
+## Professional Summary
+
+Experienced Golang and C# backend developer with a focus on high-performance system design, data processing, and network communications. Over 6 years of backend development experience across networking, healthcare, and other industries, including government project participation with practical experience in government data integration and cross-system integration. Proficient in Golang and C#, capable of designing stable and scalable solutions in high-concurrency and cross-network environments. Expert in the complete development process from system architecture and database optimization to performance tuning, committed to building reliable and efficient backend services.
 
 ---
 
-## 🛠 Skills
-- **程式語言**: Go, Java, JavaScript, Python  
-- **框架與工具**: React, Node.js, Android, libp2p  
-- **資料庫**: MySQL, PostgreSQL  
-- **其他**: Git, Docker, AWS, Linux  
+## Skills
+- **Programming Languages**: Golang, .Net, JavaScript, Python, Bash  
+- **Frameworks & Tools**: Gin, Django, React, Vue3, Flutter (Basic)  
+- **Databases**: MySQL, PostgreSQL, SQL Server, Oracle  
+- **Others**: Git, Docker, GCP, Linux  
 
 ---
 
-## 💼 Experience
+## Experience
 
-### Software Engineer — Company A (2022/01 – Present)
-- 開發與維護 **高併發後端系統**，提升效能 30%。  
-- 負責 **P2P 通訊模組設計**，使用 Golang + libp2p。  
-- 與跨部門團隊合作，支援 Android App 功能整合。  
+### Backend Engineer — Quantum Labs Technology Co., Ltd. (2022/09 – Present)
 
-### Backend Developer — Company B (2020/07 – 2021/12)
-- 設計並實作 **RESTful API**，支援每秒上千筆請求。  
-- 使用 Docker + AWS 部署服務，提升 CI/CD 效率。  
-- 開發內部工具，降低資料處理時間 40%。  
+- Designed and developed Edge Controller using Golang + PostgreSQL, responsible for core business logic and high-concurrency network processing  
+- Refactored 5G CPE network functionality from Python to Golang, improving concurrency capabilities and system response speed  
+- Designed and implemented automated device discovery and takeover mechanisms, solving device management issues across network segments and NAT environments  
+- Participated in VPN development, designing hybrid VPN system with NAT Traversal and P2P/Relay fallback, optimizing transmission performance through traffic shaping + packet batching  
+- Developed LVM-based A/B Boot OTA upgrade mechanism using RAUC + Golang, enhancing system reliability  
+- Built task scheduling batch processing framework (Cron + Golang implementation), supporting high-concurrency task scheduling  
+- Designed efficient data query architecture (Keyset Pagination + Sharding), improving billion-level data query speed to millisecond level  
+- Developed Edge Controller testing tools (Golang + Container + Linux Namespace), simulating large-scale Edge loads and VPN environments, integrated with Apache Bench for stress testing  
 
----
-
-## 🎓 Education
-**Bachelor of Computer Science** — University of XYZ (2016 – 2020)
+**Technologies**: Golang, Python, PostgreSQL, Docker, Linux, VPN, RAUC  
 
 ---
 
-## 🏆 Projects
-- **Fitness Tracking App**  
-  使用 React + Node.js 開發，支援使用者記錄運動與營養，  
-  整合 Chart.js 提供數據可視化。  
+### Software Engineer — Noah Arc Technology Co., Ltd. (2020/11 ~ 2022/02)
 
-- **P2P VPN Service (Prototype)**  
-  基於 Android VpnService + libp2p，實現點對點連線與資料加密傳輸。  
+- Designed and developed online dispatch and backend management system using C# + SQL Server + Bootstrap  
+- Responsible for Android dispatch booking system development, implementing order management, trip management, and real-time dispatch functions  
+- Developed scheduled batch tasks (C# + Schedule) for automated scheduling operations  
+- Implemented JWT authentication and RBAC permission control, improving system security and maintainability  
+- Designed and developed cross-platform real-time notification system, integrating Firebase Notification with message queues, supporting group and scheduled push notifications, ensuring reliable message delivery under high concurrency through retry mechanisms  
+- Established unit testing, automated testing, and stress testing processes, fixed security vulnerabilities to ensure product quality  
 
----
-
-## 📜 Certifications
-- AWS Certified Solutions Architect – Associate  
-- TOEIC 900  
+**Technologies**: C#, SQL Server, Bootstrap, Android, Batch  
 
 ---
 
-## 🌏 Languages
-- 中文 (母語)  
-- English (Fluent)  
+### Junior Developer — Dongyuan General Hospital (2018/04 ~ 2020/05)
+
+- Developed hospital HIS system using C# + .NET + Oracle  
+- Analyzed and resolved database Deadlock issues, significantly improving transaction processing performance and stability  
+- Successfully executed DB2 → Oracle database migration, ensuring data consistency and business continuity  
+- Led the RWD backend development of hospital registration system, improving cross-device compatibility  
+- Established cache management mechanism (LRU + TTL), reducing database load and improving response performance  
+
+**Technologies**: C#, .Net, SQL Server, Oracle, Web Form, Win Form, Batch  
+
+---
+
+## Education
+**Bachelor of Information Management** — Ming Chuan University (2014 – 2018)  
+
+---
+
+## Languages
+- Chinese (Native)  
+- English  
 
 ---
