@@ -9,9 +9,7 @@
 
 ## 專業簡介
 
-經驗豐富的資深 Golang 開發工程師，專註於高併發分散式系統、微服務架構與雲原生開發。在金融科技、電商平台、基礎建設服務等多個產業擁有超過 10 年後端研發經驗。擅長建構穩定、可擴展的後端系統，精通 Golang生態與 DevOps 自動化流程。具備紮實的系統設計能力，熟悉容器化部署（ Docker/Kubernetes ） 、 事件驅動架構（EDA） 、CI/CD 管道建設、服務可觀測性等工程實踐。曾成功推動舊系統向現代微服務架構遷移，並在多個專案中顯著提升系統效能與可靠性。
-
-具備 6 年經驗的後端工程師，專注於高效能系統設計、資料處理與網路通訊。熟悉 Golang與C#，能在高併發與跨網路環境中設計穩定、可擴展的解決方案。擅長從系統架構、資料庫優化到效能調校的完整開發流程，致力於打造可靠且高效的後端服務。
+經驗豐富的 Golang、C# 開發工程師，專注於高效能系統設計、資料處理與網路通訊。在網路通訊、醫療等多個產業擁有超過 6 年後端研發經驗，並參與過政府專案，具備政府資料串接與跨系統整合的實務經驗。熟悉 Golang 與 C#，能在高併發與跨網路環境中設計穩定、可擴展的解決方案。擅長從系統架構、資料庫優化到效能調校的完整開發流程，致力於打造可靠且高效的後端服務  
 
 ---
 
@@ -27,27 +25,27 @@
 
 ### 後端工程師 - 詮隼科技股份有限公司 (2022/09 - 現職)
 
-- 使用 Golang + Postgresql 設計並開發 Edge Controller  
+- 使用 Golang + Postgresql 設計並開發 Edge Controller，負責核心業務邏輯與高併發網路處理  
 - 將 5G CPE 網路功能從 Python 重構成 Golang，提高併發能力與系統響應速度  
-- 使用 Golang 實現自動化發現與接管，解決設備在不同網段及 NAT 環境下難以發現與管理的問題  
-- 參與 VPN 開發專案，解決 NAT 與跨網路連線不穩定的問題，參與開發具 NAT Traversal 與 hybrid P2P/Relay fallback 的 VPN 系統，並透過 traffic shaping 與 packet batching 提升傳輸效能  
-- 使用 Golang + RAUC 開發LVM架構的 A/B Boot，實現可靠性 OTA 升級  
-- 為 Edge Controller 設計並開發任務排程批次處理(Cron + Go 實現)  
+- 設計並實作自動化裝置發現與接管機制，解決跨網段與 NAT 環境下的裝置管理問題
+- 參與 VPN 開發，設計具 NAT Traversal 與 P2P/Relay fallback 的混合 VPN 系統，並透過 traffic shaping + packet batching 優化傳輸效能  
+- 使用 RAUC + Golang 開發基於 LVM 的 A/B Boot OTA 升級機制，提升系統可靠性  
+- 建立任務排程批次處理框架（Cron + Golang 實現），支援高併發任務調度  
 - 設計高效資料查詢架構（Keyset Pagination + Sharding），將億級資料查詢速度提升至毫秒級  
-- 開發 Edge Controller 測試工具，使用 Golang + Container + Linux Namespace，模擬大規模 Edge 裝置負載與 VPN 網路環境，並整合 Apache Bench 進行壓力測試，確保產品於實際環境下穩定運作  
+- 開發 Edge Controller 測試工具（Golang + Container + Linux Namespace），模擬大規模 Edge 負載與 VPN 環境，並整合 Apache Bench 進行壓測  
 
-技術: Golang，Python，PostgreSQL，Docker  
+技術: Golang, Python, PostgreSQL, Docker, Linux, VPN, RAUC  
 
 ---
 
 ### 軟體工程師 - 諾亞克科技股份有限公司 (2020/11 ~ 2022/02)
 
-- 使用 C# + SQL Server + Bootstrap 設計並開發線上派車及後台系統  
-- 使用 Android 設計並開發線上派車預約系統  
-- 開發公布門系統定時批次任務(C# + Schedule)  
-- 實作 JWT 驗證與角色權限控制 (RBAC) 系統  
-- 設計並實作全平台即時通知系統，整合 Firebase Notification 並搭配後端隊列管理、重試機制，確保高併發下消息不丟失  
-- 設計單元測試、自動化測試、壓力測試及安全性修正，確保產品品質  
+- 使用 C# + SQL Server + Bootstrap 設計並開發線上派車與後台管理系統  
+- 負責 Android 派車預約系統 開發，實作訂單、行程管理與即時派單功能  
+- 開發定時批次任務（C# + Schedule），自動化排程作業  
+- 實作 JWT 驗證與 RBAC 權限控制，提升系統安全性與維護性  
+- 設計並開發 跨平台即時通知系統，整合 Firebase Notification 與消息隊列，支援分組與預約推送，並透過重試機制確保高併發下消息可靠送達  
+- 建立單元測試、自動化測試與壓力測試流程，並修正安全性漏洞，確保產品品質  
 
 技術: C#, SQL Server, Bootstrap, Android, Batch  
 
@@ -55,13 +53,13 @@
 
 ### 初級開發工程師 - 東元醫療社團法人東元綜合醫院 (2018/04 ~ 2020/05)
 
-- 使用 C# + .Net + Oracle 設計並 HIS 系統  
-- 分析並解決資料庫 Deadlock 問題，提升交易處理效能與系統可靠度  
-- 參與資料庫移轉專案，成功將 DB2 平滑遷移至 Oracle，確保資料一致性與服務不中斷  
-- 主導網路掛號 RWD 化後端開發，負責後端架構設計與開發，提升跨裝置相容性  
-- 建構快取管理機制，採用 LRU 與 TTL 策略，顯著降低資料庫查詢量並提升系統響應效能  
+- 使用 C# + .NET + Oracle 開發醫院 HIS 系統  
+- 分析並解決資料庫 Deadlock 問題，顯著提升交易處理效能與穩定性  
+- 成功執行 DB2 → Oracle 資料庫遷移，確保數據一致性與業務不中斷  
+- 主導醫院掛號系統 RWD 化後端開發，提升跨裝置相容性  
+- 建立快取管理機制（LRU + TTL），降低資料庫負載並提升響應效能  
 
-技術: C#, SQL Server, Oracle, Web Form, Win Form, Batch  
+技術: C#, .Net, SQL Server, Oracle, Web Form, Win Form, Batch  
 
 ---
 
