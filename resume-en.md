@@ -23,7 +23,7 @@ Experienced Golang and C# backend developer with a focus on high-performance sys
 
 ## Experience
 
-### Backend Engineer — 詮隼科技股份有限公司 (2022/09 – Present)
+### Backend Engineer — 詮隼科技股份有限公司 (2022/09 – 2026/01)
 
 - Designed and developed Edge Controller using Golang + PostgreSQL, responsible for core business logic and high-concurrency network processing  
 - Refactored 5G CPE network functionality from Python to Golang, improving concurrency capabilities and system response speed  
